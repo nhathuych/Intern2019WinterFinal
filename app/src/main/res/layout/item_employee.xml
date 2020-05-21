@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_12dp"
+        app:cardElevation="@dimen/dimen_12dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:orientation="horizontal"
+            android:padding="@dimen/dimen_16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:id="@+id/imgFood"
+                android:src="@drawable/logo"
+                android:contentDescription="@string/edittext_mi_tom"
+                android:layout_width="@dimen/dimen_80dp"
+                android:layout_height="@dimen/dimen_80dp"
+                android:layout_marginStart="@dimen/dimen_8dp"
+                android:layout_marginTop="@dimen/dimen_8dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+                android:id="@+id/tvName"
+                android:text="@string/edittext_mi_tom"
+                android:textSize="@dimen/text_size_24sp"
+                android:fontFamily="casual"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toEndOf="@+id/imgFood"
+                android:layout_marginTop="@dimen/dimen_8dp"
+                android:layout_marginStart="@dimen/dimen_12dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+                android:id="@+id/tvStatus"
+                android:text="@string/textview_Activated"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_18sp"
+                android:textColor="@color/colorParticulars"
+                android:fontFamily="serif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="1.0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

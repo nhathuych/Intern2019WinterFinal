@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:id="@+id/linearLayoutHeader"
+            android:orientation="vertical"
+            android:background="@color/colorOrange"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_100dp">
+
+        <TextView
+                android:id="@+id/tvTitle"
+                android:text="@string/textview_bill"
+                android:textSize="@dimen/text_size_30sp"
+                android:textStyle="bold"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/tvUser"
+                android:text="@string/textview_user_huy_huy"
+                android:textSize="@dimen/text_size_20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorYellow"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:text="@string/textview_particulars"
+                android:textSize="@dimen/text_size_28sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorParticulars"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewBill"
+            android:padding="@dimen/dimen_12dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_300dp"
+            android:layout_below="@+id/linearLayoutHeader"
+            android:layout_above="@+id/tvTotal"
+            android:layout_marginBottom="0dp"/>
+
+    <TextView
+            android:id="@+id/tvTotal"
+            android:text="@string/textview_total"
+            android:textSize="@dimen/text_size_30sp"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:background="@color/colorOrange"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_50dp"
+            android:layout_above="@id/linearLayout"/>
+
+    <LinearLayout
+            android:id="@+id/linearLayout"
+            android:orientation="horizontal"
+            android:background="@color/colorOrange"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <Button
+                android:id="@+id/btnConfirm"
+                android:text="@string/button_confirm"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button_register"
+                android:layout_margin="@dimen/dimen_12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+
+        <Button
+                android:id="@+id/btnCancel"
+                android:text="@string/button_cancel"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button_register"
+                android:layout_margin="@dimen/dimen_12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".activity.LoginActivity">
+
+    <ImageView
+            android:layout_width="@dimen/dimen_210dp"
+            android:layout_height="@dimen/dimen_167dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo_food"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_16dp"
+            android:layout_marginRight="@dimen/dimen_16dp"
+            android:background="@drawable/btn_bg"
+            android:orientation="vertical"
+            android:paddingEnd="@dimen/dimen_12dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dimen_16dp"
+                android:text="@string/textview_hello"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/text_size_38sp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/dimen_16dp"
+                android:text="@string/textview_sign_into_your_account"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/text_size_24sp"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/edtEmail"
+                android:hint="@string/edittext_hint_email"
+                android:textSize="@dimen/text_size_18sp"
+                android:inputType="textEmailAddress"
+                android:drawablePadding="@dimen/dimen_12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen_12dp"
+                android:drawableStart="@drawable/email_24"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorRed"
+                app:met_singleLineEllipsis="true"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/edtPassword"
+                android:hint="@string/edittext_hint_password"
+                android:textSize="@dimen/text_size_18sp"
+                android:inputType="textPassword"
+                android:drawablePadding="@dimen/dimen_12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen_12dp"
+                android:drawableStart="@drawable/password_24"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorRed"
+                app:met_singleLineEllipsis="true"/>
+
+        <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="@dimen/dimen_180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dimen_28dp"
+                android:background="@drawable/btn_login"
+                android:text="@string/button_login"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:textSize="@dimen/dimen_16dp"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textview_dont_have_an_account"
+                    android:textSize="@dimen/text_size_18sp"/>
+
+            <TextView
+                    android:id="@+id/tvCreateNewAccount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen_12dp"
+                    android:text="@string/button_register"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorRed"
+                    android:textSize="@dimen/text_size_18sp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

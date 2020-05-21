@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Intern2019WinterFinal</string>
+
+    <string name="title_access_denied">Access Denied</string>
+
+    <string name="textview_login">Login</string>
+    <string name="textview_create_new_account">Create new account</string>
+    <string name="textview_create_an_account">Create an account</string>
+    <string name="textview_already_have_an_account">Already have an Account</string>
+    <string name="textview_user_name">Huy Huy</string>
+    <string name="textview_add_new_employee">Add new employee</string>
+    <string name="textview_bill">Bill</string>
+    <string name="textview_user_huy_huy">User: Huy Huy</string>
+    <string name="textview_particulars">PARTICULARS:</string>
+    <string name="textview_total">Total: 0$</string>
+    <string name="textview_20000">20.000</string>
+    <string name="textview_x3">x 3</string>
+    <string name="textview_id_table">-1</string>
+    <string name="textview_id">User Id: -1</string>
+    <string name="textview_ban_so_1">Bàn số 1</string>
+    <string name="textview_404_not_found">404 not found :(((</string>
+    <string name="textview_Activated">Activated</string>
+    <string name="textview_Deactivated">Deactivated</string>
+    <string name="textview_edit_profile">Edit Profile</string>
+    <string name="textview_hello">Hello</string>
+    <string name="textview_sign_into_your_account">Sign into your Account</string>
+    <string name="textview_dont_have_an_account">don\'t have an Account</string>
+
+    <string name="edittext_hint_full_name">full name</string>
+    <string name="edittext_hint_email">email</string>
+    <string name="edittext_hint_password">password</string>
+    <string name="edittext_hint_phone">phone</string>
+    <string name="edittext_manager">MANAGER</string>
+    <string name="edittext_name_of_the_food">Name of the food</string>
+    <string name="edittext_price">Price</string>
+    <string name="edittext_new_price">New price</string>
+    <string name="edittext_table_name">Table name</string>
+    <string name="edittext_mi_tom">Mì tôm</string>
+
+    <string name="drawerlayout_open">open</string>
+    <string name="drawerlayout_close">close</string>
+
+    <string name="menu_tables">Tables</string>
+    <string name="menu_menu">Menu</string>
+    <string name="menu_bill">Bill</string>
+    <string name="menu_employee">Employee</string>
+    <string name="menu_edit_profile">Edit profile</string>
+    <string name="menu_location">Location</string>
+    <string name="menu_logout">Log out</string>
+
+    <string name="button_login">Login</string>
+    <string name="button_register">Register now</string>
+    <string name="button_confirm">Confirm</string>
+    <string name="button_back">Back</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_select">select</string>
+    <string name="button_submit">submit</string>
+    <string name="button_yes">YES</string>
+
+    <string name="context_menu_select_the_action">Select the action</string>
+
+    <string name="option_menu_add_new_employee">Add new employee</string>
+    <string name="option_menu_new_food">New food</string>
+    <string name="option_menu_new_table">Add new table</string>
+
+    <string name="dialog_select_picture">Select picture</string>
+    <string name="dialog_quantity">Quantity:</string>
+    <string name="dialog_update_table">Update table:</string>
+
+    <string name="toast_there_is_no_image">There is no image</string>
+    <string name="toast_field_name_is_invalid">Field name is invalid</string>
+    <string name="toast_could_not_find_your_account">Could not find your account</string>
+    <string name="toast_email_is_invalid">Email is invalid</string>
+    <string name="toast_password_is_invalid">Password is invalid</string>
+    <string name="toast_wrong_password">Wrong password</string>
+    <string name="toast_password_less_than_6_characters">Password less than 6 characters</string>
+    <string name="toast_email_is_duplicate">Email is duplicate.\nPlease choose another email!</string>
+    <string name="toast_price_is_invalid">Price is invalid</string>
+    <string name="toast_updated">Updated</string>
+    <string name="toast_added">Added</string>
+    <string name="toast_failed">Failed</string>
+    <string name="toast_login_to_continue">Login to continue</string>
+    <string name="toast_there_are_empty_fields">There are empty fields</string>
+    <string name="toast_back_to_login">Successful!\nDo you want to back to login?</string>
+    <string name="toast_no_table">You have no table\nPlease choose a table before order</string>
+    <string name="toast_cant_remove_this_table">Cannot remove this table</string>
+    <string name="toast_account_is_blocked">account is blocked</string>
+    <string name="toast_blocked">Blocked</string>
+    <string name="toast_un_blocked">Un blocked</string>
+    <string name="toast_pay_to_unselect">Please pay to unselect</string>
+
+    <string-array name="food_quantity">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="map_api_key">AIzaSyAZ7UjQXgLsFe8uLPZo-rGeyf6kf6uyIiU</string>
+
+</resources>

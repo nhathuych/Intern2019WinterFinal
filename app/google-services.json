@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "96308059995",
+    "firebase_url": "https://csdlorderfood.firebaseio.com",
+    "project_id": "csdlorderfood",
+    "storage_bucket": "csdlorderfood.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96308059995:android:23a54fa38263deaf8dc47e",
+        "android_client_info": {
+          "package_name": "com.asiantech.intern2019winterfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96308059995-22b2tnc44rcdd6ca2s54p0po6s1fv43n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnebvF_uhHN9XI1UHyNfuCJr5A4hswzJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96308059995-22b2tnc44rcdd6ca2s54p0po6s1fv43n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
